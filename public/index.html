@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shooter</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div id="canvas" class="canvas"></div>
+  <div class="hud">
+    <div id="score" class="score"></div>
+    <div id="crosshair" class="crosshair"></div>
+    <div id="mobile-buttons">
+      <button id="shoot-button" class="mobile-button">space</button>
+      <button id="up-button" class="mobile-button">up</button>
+      <button id="down-button" class="mobile-button">down</button>
+      <button id="left-button" class="mobile-button">left</button>
+      <button id="right-button" class="mobile-button">right</button>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/three.min.js"></script>
+  <script src="js/PointerLockControls.js"></script>
+  <script src="js/keycode.js"></script>
+  <script src="js/math.js"></script>
+  <script src="js/physics.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
