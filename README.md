@@ -2,8 +2,8 @@
 
 ![](Shooter.png)
 
-FPS web game for desktop and mobile.
+Multiplayer web FPS game for desktop and mobile.
 
-Built with NodeJS and Socket.IO
+Built with NodeJS, Socket.IO and Three.js
 
 Run with `npm start`.
